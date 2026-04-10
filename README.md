@@ -53,5 +53,5 @@ src/test/java/tests/
   SelenoidTests.java   — API-сценарии
 
 src/test/resources/schemas/
-  response_schema.json — JSON Schema (draft-07) для ответа hub status
+  response_schema.json — JSON Schema
 ```
