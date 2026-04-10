@@ -42,7 +42,7 @@ public class SelenoidTests extends BaseTest {
     @DisplayName("Поле message — непустая строка")
     @Test
     public void requiredKeysTest() {
-        var response = given()
+        given()
                 .log().all()
                 .auth().basic("user1", "1234")
                 .when()
